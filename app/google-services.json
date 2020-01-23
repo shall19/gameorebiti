@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "771661108071",
+    "firebase_url": "https://oto-lecture-12.firebaseio.com",
+    "project_id": "oto-lecture-12",
+    "storage_bucket": "oto-lecture-12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771661108071:android:6a82fb0d995d5e33a395c2",
+        "android_client_info": {
+          "package_name": "ge.edu.btu.oto3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771661108071-5o6f2tbm2cappbbb7fod7hipkb5f8ni4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOwitI_y78ygqnVK1zDgyAlNRtcf30VeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771661108071-5o6f2tbm2cappbbb7fod7hipkb5f8ni4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

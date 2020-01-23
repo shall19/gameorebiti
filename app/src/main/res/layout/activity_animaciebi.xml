@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AnimationsActivity">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/RIGHT"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:text="Right-0"
+        android:textColor="#07C51F"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/WRONG"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:text="Wrong-0"
+        android:textColor="#D50F0F"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:text="1/10"
+        android:textColor="#082383"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="140dp"
+        android:id="@+id/kitxva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:text="რამდენი ირემი ჰყავდა შებმული გრინჩს თავის მარხილში?"
+        android:textColor="#000000"
+        android:textSize="30sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_for_quiz"
+        android:text="1"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/B"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rounded_for_quiz"
+        android:text="5"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/C"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/rounded_for_quiz"
+        android:text="7"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/NEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/next_button"
+        android:text="შემდეგი"
+        android:textSize="25sp">
+    </Button>
+
+</FrameLayout>

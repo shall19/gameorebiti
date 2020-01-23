@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MoviesResultActivity">
+
+    <ImageView
+        android:layout_width="537dp"
+        android:layout_height="651dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/morty">
+    </ImageView>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#F3E04F"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="Your Results:"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="263dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rightAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="140dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#3B9826"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/wrongAnswers"
+            android:layout_width="272dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="140dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#F0770E0E"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
